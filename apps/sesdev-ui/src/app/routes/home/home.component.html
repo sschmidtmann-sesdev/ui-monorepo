@@ -1,0 +1,11 @@
+<div class="h-screen">
+    <home-feature-descrip></home-feature-descrip>
+</div>
+
+<div class="h-screen">
+    @defer (on viewport) {
+        <home-app-list></home-app-list>
+    } @placeholder {
+        <p>Loading...</p>
+    }
+</div>
